@@ -1,0 +1,166 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+ *{
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lexend Deca",sans-serif;
+    font-weight: 400;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 40px;
+    list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color:rgb(245, 224, 209);
+}
+a:hover{
+  font-size: 20px;
+  color: rgb(224, 178, 92);
+}
+ header,footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 58, 37);
+    /*color:rgb(245, 224, 209);*/
+    color: antiquewhite;
+    width: 100%;
+    height: 80px;
+ }
+
+ main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.hero-text{
+     background-color:rgba(241, 214, 180, 0.623);
+     width: fit-content;
+     height: fit-content;
+     padding-left: 10px;
+     padding-right: 10px;
+     border-radius: 15px;
+     position: absolute;
+     bottom: 0px;
+     left:0px;
+     margin-bottom: 250px;
+     margin-left: 40px;
+     font-size: 40px;
+ }
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding: 30px;
+    scroll-margin-top: 80px;
+}
+.info:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+.info:nth-of-type(even) .info-text{
+  text-align: left;
+}
+.info img{
+    width: 500px;
+    height: 400px;
+    border-radius: 30px;
+    margin: 50px;
+}
+ .info-text{
+    align-content: center;
+    width: 500px;
+    margin: 50px;
+ }
+ .info-text h1{
+    margin-bottom: 30px;
+ }
+ .info-text p{
+    line-height: 30px;
+ }
+
+
+#about{
+    background-color: #bb95578d;
+}
+#moons{
+    background-color:#3a5a40be;
+}
+#red-spot{
+    background-color:#941c0cb7 ;
+}
+#exploration{
+    background-color: #96542eb5;
+}
+#facts{
+    background-color: #3a5a408d;
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-attachment: fixed;
+  height: 700px;
+  width: 100%;
+}
+#about-jupiter-section{
+    background-image: url("images/jupiter.avif");
+}
+#about-section{
+    background-image: url("images/facts-section2.webp");
+}
+#moons-section{
+    background-image: url("images/moons-section2.jpg");
+}
+#red-spot-section{
+    background-image: url("images/redspot-section.webp");
+}
+#exploration-section{
+    background-image: url("images/exploration-section.jpg");
+}
+#facts-section{
+    background-image: url("images/facts-section1.jpg");
+}
+
+footer p{
+    margin-left: 10px;
+}
