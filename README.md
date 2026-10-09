@@ -1,4 +1,4 @@
-![Jupiter Planet Screenshot](img.png)
+![Jupiter Planet Screenshot](image.png)
 
 # 🪐 Jupiter Planet
 An educational website about Jupiter, designed to present information about the largest planet in our solar system.
